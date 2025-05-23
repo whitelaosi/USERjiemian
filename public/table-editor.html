@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地质表格编辑器</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <style>
+        /* 保留原有样式 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        #app {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .nav-link {
+            color: #2c3e50;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+        }
+
+        /* 添加一些新样式 */
+        .table-selection {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .merge-options {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .checkbox-label input {
+            margin-right: 5px;
+        }
+
+        /* 新增样式 */
+        .table-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .btn-group-sm {
+            margin-right: 10px;
+        }
+
+        .table-toolbar {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .history-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: 10px;
+        }
+
+        .cell-action-btn {
+            background: none;
+            border: none;
+            color: #007bff;
+            padding: 0 5px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .cell-action-btn:hover {
+            color: #0056b3;
+        }
+
+        .row-col-actions {
+            position: relative;
+        }
+
+        .action-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 1000;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 5px 0;
+        }
+
+        .action-dropdown button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 5px 15px;
+            border: none;
+            background: none;
+            cursor: pointer;
+        }
+
+        .action-dropdown button:hover {
+            background-color: #f1f1f1;
+        }
+
+        .col-indicator {
+            position: sticky;
+            top: 0;
+            background-color: #f8f9fa;
+            z-index: 10;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding: 2px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .row-indicator {
+            width: 40px;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            padding: 2px 0;
+            border-right: 1px solid #ddd;
+            user-select: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>地质表格编辑器</h1>
+            <a href="/" class="nav-link">返回RDF搜索系统</a>
+        </div>
+
+        <div id="app">
+            <!-- Vue应用将在这里挂载 -->
+        </div>
+    </div>
+
+    <!-- 引入Vue -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <!-- 引入Axios用于HTTP请求 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- 表格编辑器组件代码 -->
+    <script>
+        // 表格编辑器组件
+        const TableEditor = {
+            template: `
+        <div class="table-editor">
+          <div v-if="loading" class="alert alert-info">
+            <div class="spinner-border spinner-border-sm mr-2" role="status"></div>
+            加载表格数据中...
+          </div>
+          
+          <div v-else-if="error" class="alert alert-danger">
+            <strong>错误:</strong> {{ error }}
+          </div>
+          
+          <div v-else>
+            <!-- 表格选择和合并区域 -->
+            <div class="table-selection" v-if="mergeMode">
+              <h4>表格合并模式</h4>
+              <p>选择要合并的表格：</p>
+              
+              <div class="merge-options">
+                <div v-for="(table, index) in tables" :key="index" class="checkbox-label">
+                  <input type="checkbox" :id="'table-' + index" v-model="tablesToMerge[index]">
+                  <label :for="'table-' + index">
+                    表格 {{ index + 1 }} 
+                    <span v-if="table.is_cross_page" class="badge badge-warning">跨页</span>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="mergedTableName">合并后的表格名称:</label>
+                <input type="text" id="mergedTableName" v-model="mergedTableName" class="form-control" placeholder="输入合并后的表格名称">
+              </div>
+              
+              <div class="btn-group">
+                <button @click="performMerge" class="btn btn-success" :disabled="!canMerge">
+                  执行合并
+                </button>
+                <button @click="cancelMerge" class="btn btn-secondary">
+                  取消
+                </button>
+                    <button @click="mergeMode = false" class="btn btn-danger" style="margin-left: 10px;">
+      紧急返回
+    </button>
+              </div>
+            </div>
+            
+            <!-- 常规表格选择和编辑区域 -->
+            <div v-else>
+              <div class="form-group">
+                <label for="tableSelector">选择表格:</label>
+                <select id="tableSelector" class="form-control" v-model="currentTableIndex" @change="loadTable">
+                  <option v-for="(table, index) in tables" :key="index" :value="index">
+                    表格 {{ index + 1 }} ({{ table.table_type || '未知类型' }})
+                    <span v-if="table.suspicious_count > 0" class="text-danger">
+                      - {{ table.suspicious_count }}个需要审核
+                    </span>
+                  </option>
+                </select>
+              </div>
+              
+              <div v-if="currentTable" class="mb-4">
+                <div class="alert" :class="{'alert-warning': currentTable.is_cross_page, 'alert-secondary': !currentTable.is_cross_page}">
+  <div class="d-flex justify-content-between align-items-center">
+    <div>
+      <span>{{ currentTable.is_cross_page ? '⚠️ 跨页表格' : '📋 单页表格' }}</span>
+      <span v-if="currentTable.suspicious_count > 0" class="ml-3 badge badge-warning">
+        {{ currentTable.suspicious_count }}个可疑单元格
+      </span>
+    </div>
+    <div class="d-flex align-items-center">
+      <span class="mr-2">表格名称:</span>
+      <div v-if="editingTableName">
+        <input 
+          type="text" 
+          v-model="tableNameInput" 
+          class="form-control form-control-sm" 
+          @blur="finishEditingTableName" 
+          @keyup.enter="finishEditingTableName"
+          ref="tableNameInput"
+        />
+      </div>
+      <div v-else class="d-flex align-items-center">
+        <span>{{ currentTable.table_type || '未知类型' }}</span>
+        <button @click="startEditingTableName" class="btn btn-sm btn-link ml-2">
+          <i class="bi bi-pencil"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+<div class="mt-2">
+  <div class="d-flex">
+    <div class="mr-4">
+      <strong>源文件:</strong> {{ currentTable.source_file || metadata.source_pdf || '未知' }}
+    </div>
+    <div>
+      <strong>页码:</strong> {{ currentTable.pages ? currentTable.pages.join(', ') : currentTable.page_idx }}
+    </div>
+  </div>
+</div>
+</div>
+                
+<div class="table-toolbar">
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="table-actions">
+      <div class="btn-group">
+        <button @click="saveChanges" :disabled="!hasChanges" class="btn btn-success">
+          <i class="bi bi-save"></i> 保存修改
+        </button>
+        <button @click="exportToCsv" class="btn btn-secondary">
+          <i class="bi bi-filetype-csv"></i> 导出CSV
+        </button>
+        <button @click="startMergeMode" class="btn btn-primary">
+          <i class="bi bi-object-ungroup"></i> 合并表格
+        </button>
+        <button @click="toggleOriginalImages" class="btn btn-info">
+          {{ showOriginalImages ? '隐藏原图' : '显示原图' }}
+        </button>
+        <button @click="regenerateTableFromPage" class="btn btn-warning">
+            <i class="bi bi-arrow-repeat"></i> 重新生成此页表格
+        </button>
+      </div>
+      
+      <!-- 新增的行和列操作按钮 -->
+      <div class="btn-group ml-2">
+        <button class="btn btn-outline-primary dropdown-toggle" @click="toggleRowDropdown">
+          <i class="bi bi-list"></i> 行操作
+        </button>
+        <div class="action-dropdown" v-if="showRowDropdown">
+          <button @click="addRow('top')">在顶部添加行</button>
+          <button @click="addRow('bottom')">在底部添加行</button>
+          <button @click="addRow('current')" :disabled="!selectedRow">在当前行下添加</button>
+          <button @click="deleteRow" :disabled="!selectedRow">删除选中行</button>
+        </div>
+      </div>
+      
+      <div class="btn-group ml-2">
+        <button class="btn btn-outline-primary dropdown-toggle" @click="toggleColDropdown">
+          <i class="bi bi-layout-three-columns"></i> 列操作
+        </button>
+        <div class="action-dropdown" v-if="showColDropdown">
+          <button @click="addColumn('left')">在左侧添加列</button>
+          <button @click="addColumn('right')">在右侧添加列</button>
+          <button @click="addColumn('current')" :disabled="!selectedCol">在当前列后添加</button>
+          <button @click="deleteColumn" :disabled="!selectedCol">删除选中列</button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- 历史记录操作按钮 -->
+    <div class="btn-group position-relative">
+      <button @click="undo" :disabled="!canUndo" class="btn btn-outline-secondary" title="撤销">
+        <i class="bi bi-arrow-counterclockwise"></i>
+        <span v-if="undoStack.length > 0" class="badge badge-secondary history-badge">
+          {{ undoStack.length }}
+        </span>
+      </button>
+      <button @click="redo" :disabled="!canRedo" class="btn btn-outline-secondary" title="重做">
+        <i class="bi bi-arrow-clockwise"></i>
+        <span v-if="redoStack.length > 0" class="badge badge-secondary history-badge">
+          {{ redoStack.length }}
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+                
+                <div class="table-responsive">
+                  <table class="table table-bordered table-hover">
+<thead class="thead-light">
+  <tr>
+    <!-- 行号列 -->
+    <th style="width: 50px; min-width: 50px;">#</th>
+    <!-- 列标识和列操作 -->
+    <th v-for="(col, index) in currentTable.header" :key="index" 
+        @click="selectColumn(index)"
+        :class="{'table-primary': selectedCol === index}">
+      <div class="col-indicator">列 {{ index + 1 }}</div>
+      {{ col }}
+      <div class="float-right">
+        <button class="cell-action-btn" @click.stop="editHeader(index)" title="编辑列名">
+          <i class="bi bi-pencil-square"></i>
+        </button>
+      </div>
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr v-for="(row, rowIndex) in currentTable.enhanced_rows" :key="rowIndex"
+      @click="selectRow(rowIndex)"
+      :class="{'table-primary': selectedRow === rowIndex}">
+    <!-- 行号和行操作 -->
+    <td class="row-indicator">
+      {{ rowIndex + 1 }}
+    </td>
+    <!-- 单元格 -->
+    <td v-for="(cell, colIndex) in row" :key="colIndex"
+        :class="{'table-warning': cell.suspicious, 'table-primary': selectedCol === colIndex && selectedRow === rowIndex}"
+        @click.stop="editCell(rowIndex, colIndex)">
+      <span v-if="cell.suspicious" class="badge badge-warning mr-1" :title="cell.reason">
+        ⚠️
+      </span>
+      <input v-if="editingCell.row === rowIndex && editingCell.col === colIndex"
+             v-model="editingCell.value"
+             @blur="finishEditing"
+             @keyup.enter="finishEditing"
+             ref="cellInput"
+             class="form-control" />
+      <span v-else>{{ cell.value }}</span>
+    </td>
+  </tr>
+</tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            
+            <div v-if="showOriginalImages && currentTable?.page_images" class="mt-4">
+              <h4>原始页面图像</h4>
+              <div v-for="(image, index) in currentTable.page_images" :key="index" class="mb-3">
+                <h5>页码 {{ image.page }}</h5>
+                <img :src="image.path" :alt="\`页面 \${image.page}\`" class="img-fluid border" />
+              </div>
+            </div>
+          </div>
+          <!-- 编辑列标题的模态框 -->
+<div class="modal fade" id="headerEditModal" tabindex="-1" v-if="editingHeader">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">编辑列标题</h5>
+        <button type="button" class="close" @click="cancelHeaderEdit">
+          <span>&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label>列标题</label>
+          <input type="text" class="form-control" v-model="headerEditValue">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" @click="cancelHeaderEdit">取消</button>
+        <button type="button" class="btn btn-primary" @click="saveHeaderEdit">保存</button>
+      </div>
+    </div>
+  </div>
+</div>
+          <div v-if="statusMessage" class="alert" :class="getAlertClass()" style="position: fixed; bottom: 20px; right: 20px; max-width: 300px;">
+            {{ statusMessage }}
+          </div>
+        </div>
+      `,
+            data() {
+                return {
+                    tables: [],
+                    metadata: {},
+                    currentTableIndex: 0,
+                    currentTable: null,
+                    editingCell: {
+                        row: -1,
+                        col: -1,
+                        value: ''
+                    },
+                    originalData: null,
+                    hasChanges: false,
+                    showOriginalImages: false,
+                    loading: true,
+                    error: null,
+                    statusMessage: null,
+                    statusType: 'info',
+                    jsonDataPath: '/api/tables',
+                    // 添加合并表格相关变量
+                    mergeMode: false,
+                    tablesToMerge: {},
+                    mergedTableName: '合并表格',
+                    // 添加表格名称编辑相关变量
+                    editingTableName: false,
+                    tableNameInput: '',
+                    // 在 data() 函数内的 return 对象中添加这些属性
+                    selectedRow: null,
+                    selectedCol: null,
+                    showRowDropdown: false,
+                    showColDropdown: false,
+                    undoStack: [],
+                    redoStack: [],
+                    editingHeader: false,
+                    headerEditIndex: null,
+                    headerEditValue: '',
+                }
+            },
+            computed: {
+                canUndo() {
+                    return this.undoStack.length > 0;
+                },
+                canRedo() {
+                    return this.redoStack.length > 0;
+                },
+                canMerge() {
+                    // 检查是否至少选择了两个表格
+                    const selectedCount = Object.values(this.tablesToMerge).filter(v => v).length;
+                    return selectedCount >= 2 && this.mergedTableName.trim() !== '';
+                }
+            },
+            watch: {
+                tablesToMerge: {
+                    handler(newVal) {
+                        // 强制刷新以确保按钮状态更新
+                        this.$nextTick(() => this.$forceUpdate());
+                    },
+                    deep: true
+                }
+            },
+            mounted() {
+                this.loadData()
+                document.addEventListener('click', this.closeDropdowns);
+            },
+            beforeDestroy() {
+                // 移除事件监听器
+                document.removeEventListener('click', this.closeDropdowns);
+            },
+            methods: {
+                // 将当前状态保存到历史记录
+                saveToHistory() {
+                    // 仅当有表格时才保存历史
+                    if (!this.currentTable) return;
+
+                    // 创建当前表格的深拷贝
+                    const snapshot = {
+                        header: [...this.currentTable.header],
+                        enhanced_rows: JSON.parse(JSON.stringify(this.currentTable.enhanced_rows)),
+                        original_rows: this.currentTable.original_rows ?
+                            JSON.parse(JSON.stringify(this.currentTable.original_rows)) : null
+                    };
+
+                    // 添加到撤销栈
+                    this.undoStack.push(snapshot);
+
+                    // 限制历史记录长度
+                    if (this.undoStack.length > 20) {
+                        this.undoStack.shift();
+                    }
+
+                    // 清空重做栈
+                    this.redoStack = [];
+
+                    // 标记有修改
+                    this.hasChanges = true;
+                },
+
+                // 撤销操作
+                undo() {
+                    if (!this.canUndo) return;
+
+                    // 保存当前状态到重做栈
+                    const currentState = {
+                        header: [...this.currentTable.header],
+                        enhanced_rows: JSON.parse(JSON.stringify(this.currentTable.enhanced_rows)),
+                        original_rows: this.currentTable.original_rows ?
+                            JSON.parse(JSON.stringify(this.currentTable.original_rows)) : null
+                    };
+                    this.redoStack.push(currentState);
+
+                    // 恢复历史状态
+                    const previousState = this.undoStack.pop();
+                    this.currentTable.header = previousState.header;
+                    this.currentTable.enhanced_rows = previousState.enhanced_rows;
+                    if (previousState.original_rows) {
+                        this.currentTable.original_rows = previousState.original_rows;
+                    }
+
+                    this.showStatusMessage('已撤销上一步操作', 'info');
+                },
+
+                // 重做操作
+                redo() {
+                    if (!this.canRedo) return;
+
+                    // 保存当前状态到撤销栈
+                    const currentState = {
+                        header: [...this.currentTable.header],
+                        enhanced_rows: JSON.parse(JSON.stringify(this.currentTable.enhanced_rows)),
+                        original_rows: this.currentTable.original_rows ?
+                            JSON.parse(JSON.stringify(this.currentTable.original_rows)) : null
+                    };
+                    this.undoStack.push(currentState);
+
+                    // 恢复重做状态
+                    const nextState = this.redoStack.pop();
+                    this.currentTable.header = nextState.header;
+                    this.currentTable.enhanced_rows = nextState.enhanced_rows;
+                    if (nextState.original_rows) {
+                        this.currentTable.original_rows = nextState.original_rows;
+                    }
+
+                    this.showStatusMessage('已重做操作', 'info');
+                },
+
+                // 选择行
+                selectRow(rowIndex) {
+                    // 如果已选中同一行，则取消选择
+                    if (this.selectedRow === rowIndex) {
+                        this.selectedRow = null;
+                    } else {
+                        this.selectedRow = rowIndex;
+                    }
+
+                    // 关闭所有下拉菜单
+                    this.closeDropdowns();
+                },
+
+                // 选择列
+                selectColumn(colIndex) {
+                    // 如果已选中同一列，则取消选择
+                    if (this.selectedCol === colIndex) {
+                        this.selectedCol = null;
+                    } else {
+                        this.selectedCol = colIndex;
+                    }
+
+                    // 关闭所有下拉菜单
+                    this.closeDropdowns();
+                },
+
+                // 显示/隐藏行操作下拉菜单
+                toggleRowDropdown(event) {
+                    event.stopPropagation();
+                    this.showRowDropdown = !this.showRowDropdown;
+                    this.showColDropdown = false;
+                },
+
+                // 显示/隐藏列操作下拉菜单
+                toggleColDropdown(event) {
+                    event.stopPropagation();
+                    this.showColDropdown = !this.showColDropdown;
+                    this.showRowDropdown = false;
+                },
+
+                // 关闭所有下拉菜单
+                closeDropdowns() {
+                    this.showRowDropdown = false;
+                    this.showColDropdown = false;
+                },
+
+                // 添加新行
+                addRow(position) {
+                    if (!this.currentTable) return;
+
+                    // 保存当前状态到历史记录
+                    this.saveToHistory();
+
+                    const numCols = this.currentTable.header.length;
+                    // 创建空单元格
+                    const newRow = Array(numCols).fill(null).map(() => ({
+                        value: '',
+                        suspicious: false
+                    }));
+
+                    // 根据位置添加行
+                    switch (position) {
+                        case 'top':
+                            this.currentTable.enhanced_rows.unshift(newRow);
+                            if (this.currentTable.original_rows) {
+                                this.currentTable.original_rows.unshift(Array(numCols).fill(''));
+                            }
+                            break;
+                        case 'bottom':
+                            this.currentTable.enhanced_rows.push(newRow);
+                            if (this.currentTable.original_rows) {
+                                this.currentTable.original_rows.push(Array(numCols).fill(''));
+                            }
+                            break;
+                        case 'current':
+                            if (this.selectedRow !== null) {
+                                const index = this.selectedRow + 1;
+                                this.currentTable.enhanced_rows.splice(index, 0, newRow);
+                                if (this.currentTable.original_rows) {
+                                    this.currentTable.original_rows.splice(index, 0, Array(numCols).fill(''));
+                                }
+                                this.selectedRow = index;
+                            }
+                            break;
+                    }
+
+                    // 关闭下拉菜单
+                    this.closeDropdowns();
+                    this.showStatusMessage('已添加新行', 'success');
+                },
+
+                // 删除选中行
+                deleteRow() {
+                    if (this.selectedRow === null || !this.currentTable) return;
+
+                    // 保存当前状态到历史记录
+                    this.saveToHistory();
+
+                    // 删除行
+                    this.currentTable.enhanced_rows.splice(this.selectedRow, 1);
+                    if (this.currentTable.original_rows) {
+                        this.currentTable.original_rows.splice(this.selectedRow, 1);
+                    }
+
+                    // 重置选中状态
+                    this.selectedRow = null;
+
+                    // 关闭下拉菜单
+                    this.closeDropdowns();
+                    this.showStatusMessage('已删除选中行', 'success');
+                },
+
+                // 添加新列
+                addColumn(position) {
+                    if (!this.currentTable) return;
+
+                    // 保存当前状态到历史记录
+                    this.saveToHistory();
+
+                    // 添加新的列标题
+                    const newColumnName = `新列 ${this.currentTable.header.length + 1}`;
+
+                    // 根据位置添加列
+                    let colIndex;
+                    switch (position) {
+                        case 'left':
+                            colIndex = 0;
+                            this.currentTable.header.unshift(newColumnName);
+                            break;
+                        case 'right':
+                            colIndex = this.currentTable.header.length;
+                            this.currentTable.header.push(newColumnName);
+                            break;
+                        case 'current':
+                            if (this.selectedCol !== null) {
+                                colIndex = this.selectedCol + 1;
+                                this.currentTable.header.splice(colIndex, 0, newColumnName);
+                                this.selectedCol = colIndex;
+                            } else {
+                                colIndex = this.currentTable.header.length;
+                                this.currentTable.header.push(newColumnName);
+                            }
+                            break;
+                    }
+
+                    // 为每一行添加新单元格
+                    this.currentTable.enhanced_rows.forEach(row => {
+                        const newCell = { value: '', suspicious: false };
+                        row.splice(colIndex, 0, newCell);
+                    });
+
+                    // 更新原始数据
+                    if (this.currentTable.original_rows) {
+                        this.currentTable.original_rows.forEach(row => {
+                            row.splice(colIndex, 0, '');
+                        });
+                    }
+
+                    // 关闭下拉菜单
+                    this.closeDropdowns();
+                    this.showStatusMessage('已添加新列', 'success');
+                },
+
+                // 删除选中列
+                deleteColumn() {
+                    if (this.selectedCol === null || !this.currentTable) return;
+
+                    // 保存当前状态到历史记录
+                    this.saveToHistory();
+
+                    // 删除列标题
+                    this.currentTable.header.splice(this.selectedCol, 1);
+
+                    // 从每一行中删除对应单元格
+                    this.currentTable.enhanced_rows.forEach(row => {
+                        row.splice(this.selectedCol, 1);
+                    });
+
+                    // 更新原始数据
+                    if (this.currentTable.original_rows) {
+                        this.currentTable.original_rows.forEach(row => {
+                            row.splice(this.selectedCol, 1);
+                        });
+                    }
+
+                    // 重置选中状态
+                    this.selectedCol = null;
+
+                    // 关闭下拉菜单
+                    this.closeDropdowns();
+                    this.showStatusMessage('已删除选中列', 'success');
+                },
+
+                // 编辑列标题
+                editHeader(index) {
+                    // 阻止事件冒泡
+                    event.stopPropagation();
+
+                    this.headerEditIndex = index;
+                    this.headerEditValue = this.currentTable.header[index];
+                    this.editingHeader = true;
+
+                    // 使用Bootstrap API显示模态框
+                    $('#headerEditModal').modal('show');
+                },
+
+                // 取消编辑列标题
+                cancelHeaderEdit() {
+                    this.editingHeader = false;
+                    this.headerEditIndex = null;
+                    this.headerEditValue = '';
+
+                    // 使用Bootstrap API隐藏模态框
+                    $('#headerEditModal').modal('hide');
+                },
+
+                // 保存列标题编辑
+                saveHeaderEdit() {
+                    if (this.headerEditIndex !== null && this.headerEditValue.trim() !== '') {
+                        // 保存当前状态到历史记录
+                        this.saveToHistory();
+
+                        // 更新列标题
+                        this.currentTable.header[this.headerEditIndex] = this.headerEditValue.trim();
+                        this.showStatusMessage('列标题已更新', 'success');
+                    }
+
+                    // 重置编辑状态
+                    this.cancelHeaderEdit();
+                },
+                async loadData() {
+                    this.loading = true
+                    this.error = null
+
+                    try {
+                        const response = await axios.get(this.jsonDataPath)
+                        const data = response.data
+
+                        this.tables = data.tables || []
+                        this.metadata = data.metadata || {}
+                        this.originalData = JSON.stringify(data)
+
+                        // 初始化合并表格选择状态
+                        this.initMergeSelection()
+
+                        if (this.tables.length > 0) {
+                            this.loadTable()
+                        } else {
+                            this.error = "未找到表格数据"
+                        }
+                    } catch (error) {
+                        console.error('加载表格数据失败:', error)
+                        this.error = `加载失败: ${error.message}`
+                    } finally {
+                        this.loading = false
+                    }
+                },
+
+                initMergeSelection() {
+                    // 初始化所有表格为未选择状态
+                    this.tablesToMerge = {}
+                    this.tables.forEach((_, index) => {
+                        this.tablesToMerge[index] = false
+                    })
+                },
+
+                loadTable() {
+                    if (this.tables.length > 0) {
+                        this.currentTable = this.tables[this.currentTableIndex]
+                        this.editingCell = { row: -1, col: -1, value: '' }
+                        // 在现有loadTable方法中，添加：
+                        this.selectedRow = null;
+                        this.selectedCol = null;
+                        this.undoStack = [];
+                        this.redoStack = [];
+                    }
+                },
+
+                editCell(rowIndex, colIndex) {
+                    const cell = this.currentTable.enhanced_rows[rowIndex][colIndex]
+                    this.editingCell = {
+                        row: rowIndex,
+                        col: colIndex,
+                        value: cell.value
+                    }
+
+                    // 下一帧聚焦到输入框
+                    this.$nextTick(() => {
+                        if (this.$refs.cellInput) {
+                            this.$refs.cellInput.focus()
+                        }
+                    })
+                },
+
+                finishEditing() {
+                    const { row, col, value } = this.editingCell;
+
+                    if (row >= 0 && col >= 0) {
+                        // 保存当前状态到历史记录
+                        this.saveToHistory();
+
+                        // 更新单元格值
+                        this.currentTable.enhanced_rows[row][col].value = value;
+
+                        // 同时更新原始行数据以保持一致
+                        if (this.currentTable.original_rows &&
+                            row < this.currentTable.original_rows.length &&
+                            col < this.currentTable.original_rows[row].length) {
+                            this.currentTable.original_rows[row][col] = value;
+                        }
+                    }
+
+                    // 重置编辑状态
+                    this.editingCell = { row: -1, col: -1, value: '' };
+                },
+
+                async saveChanges() {
+                    try {
+                        // 发送到服务器
+                        await axios.post('/api/tables', {
+                            tables: this.tables,
+                            metadata: this.metadata
+                        });
+
+                        this.hasChanges = false;
+                        this.showStatusMessage('修改已成功保存到服务器', 'success');
+                    } catch (error) {
+                        console.error('保存失败:', error);
+                        this.showStatusMessage('保存失败: ' + error.message, 'error');
+
+                        // 备份到localStorage
+                        localStorage.setItem('tableEditorData', JSON.stringify({
+                            tables: this.tables,
+                            metadata: this.metadata
+                        }));
+                        this.showStatusMessage('已备份到本地存储', 'info');
+                    }
+                },
+
+                exportToCsv() {
+                    if (!this.currentTable) return
+
+                    // 准备CSV内容
+                    const header = this.currentTable.header
+                    const rows = this.currentTable.enhanced_rows.map(row =>
+                        row.map(cell => cell.value)
+                    )
+
+                    // 创建CSV文本
+                    const csvContent = [
+                        header.join(','),
+                        ...rows.map(row => row.map(this.escapeCsvValue).join(','))
+                    ].join('\r\n')
+                    // 添加UTF-8 BOM标记
+                    const BOM = new Uint8Array([0xEF, 0xBB, 0xBF]);
+                    const csvData = new Blob([BOM, csvContent], { type: 'text/csv;charset=utf-8;' })
+                    // 下载文件
+                    const url = URL.createObjectURL(csvData)
+                    const link = document.createElement('a')
+                    link.href = url
+                    link.download = `table_${this.currentTableIndex + 1}.csv`
+                    document.body.appendChild(link)
+                    link.click()
+                    document.body.removeChild(link)
+
+                    this.showStatusMessage('CSV导出成功', 'success')
+                },
+
+                escapeCsvValue(value) {
+                    if (value === null || value === undefined) return ''
+
+                    value = String(value)
+                    // 如果包含逗号、引号或换行符，用引号包裹并转义引号
+                    if (value.includes(',') || value.includes('"') || value.includes('\\n')) {
+                        return `"${value.replace(/"/g, '""')}"`
+                    }
+                    return value
+                },
+
+                toggleOriginalImages() {
+                    this.showOriginalImages = !this.showOriginalImages
+                },
+                // 添加到methods对象中
+                regenerateTableFromPage() {
+                    const pageIdx = this.currentTable.page_idx;
+                    if (!pageIdx) {
+                        this.showStatusMessage('无法确定页码', 'error');
+                        return;
+                    }
+
+                    if (confirm(`确定要重新生成第${pageIdx}页的表格吗？这将创建一个新的独立表格。`)) {
+                        // 发送请求到后端重新处理特定页面
+                        axios.post('/api/regenerate-table', {
+                            page: pageIdx,
+                            exclude_merge: true
+                        }).then(response => {
+                            if (response.data.success) {
+                                this.showStatusMessage('表格已重新生成，请刷新页面查看', 'success');
+                                // 1秒后刷新页面
+                                setTimeout(() => window.location.reload(), 1000);
+                            } else {
+                                this.showStatusMessage('表格重新生成失败: ' + response.data.message, 'error');
+                            }
+                        }).catch(error => {
+                            this.showStatusMessage('操作失败: ' + error.message, 'error');
+                        });
+                    }
+                },
+                // 开始表格合并模式
+                startMergeMode() {
+                    this.mergeMode = true
+                    // 重置选择状态
+                    this.initMergeSelection()
+                    // 默认选中当前表格
+                    if (this.currentTableIndex !== undefined) {
+                        this.tablesToMerge[this.currentTableIndex] = true
+                    }
+
+                    // 添加这几行代码以确保计算属性更新
+                    this.$nextTick(() => {
+                        // 强制更新计算属性
+                        this.tablesToMerge = { ...this.tablesToMerge };
+                        this.$forceUpdate();
+                    });
+                },
+
+                // 取消合并模式
+                cancelMerge() {
+                    this.mergeMode = false
+                },
+
+                // 执行表格合并
+                performMerge() {
+                    try {
+                        console.log("执行合并: 选中表格数", Object.values(this.tablesToMerge).filter(v => v).length);
+                        console.log("合并表格名称:", this.mergedTableName);
+
+                        if (!this.canMerge) {
+                            console.log("无法合并:", this.canMerge);
+                            return;
+                        }
+
+                        // 获取选中的表格索引
+                        const selectedIndices = Object.keys(this.tablesToMerge)
+                            .filter(idx => this.tablesToMerge[idx])
+                            .map(idx => parseInt(idx));
+
+                        console.log("选中的表格索引:", selectedIndices);
+
+                        // 创建合并后的表格
+                        const mergedTable = this.createMergedTable(selectedIndices);
+
+                        // 添加到表格列表
+                        this.tables.push(mergedTable);
+
+                        // 更新元数据
+                        if (this.metadata) this.metadata.total_tables = this.tables.length;
+
+                        // 选择新合并的表格
+                        this.currentTableIndex = this.tables.length - 1;
+                        this.loadTable();
+
+                        // 退出合并模式
+                        this.mergeMode = false;
+
+                        // 显示成功消息
+                        this.showStatusMessage('表格合并成功', 'success');
+
+                        // 标记有修改
+                        this.hasChanges = true;
+                    } catch (err) {
+                        console.error('表格合并出错:', err);
+                        this.showStatusMessage(`表格合并失败: ${err.message}`, 'error');
+                        // 尝试退出合并模式
+                        this.mergeMode = false;
+                    }
+                },
+
+                // 创建合并后的表格
+                createMergedTable(selectedIndices) {
+                    // 获取第一个表格作为基础
+                    const baseTable = this.tables[selectedIndices[0]]
+
+                    // 创建新表格对象
+                    const mergedTable = {
+                        header: [...baseTable.header],
+                        enhanced_rows: [],
+                        original_rows: [],
+                        table_type: this.mergedTableName,
+                        is_cross_page: true,
+                        pages: [],
+                        suspicious_cells: [],
+                        suspicious_count: 0
+                    }
+
+                    // 收集所有页码
+                    const allPages = new Set()
+
+                    // 合并所有行
+                    selectedIndices.forEach(idx => {
+                        const table = this.tables[idx]
+
+                        // 添加所有页码
+                        if (table.pages) {
+                            table.pages.forEach(page => allPages.add(page))
+                        } else if (table.page_idx) {
+                            allPages.add(table.page_idx)
+                        }
+
+                        // 添加行
+                        mergedTable.enhanced_rows = mergedTable.enhanced_rows.concat(table.enhanced_rows)
+
+                        // 添加原始行
+                        if (table.original_rows) {
+                            mergedTable.original_rows = mergedTable.original_rows.concat(table.original_rows)
+                        }
+
+                        // 收集可疑单元格
+                        if (table.suspicious_cells) {
+                            // 需要调整行索引
+                            const rowOffset = mergedTable.enhanced_rows.length - table.enhanced_rows.length
+                            const adjustedSuspiciousCells = table.suspicious_cells.map(cell => ({
+                                row: cell.row + rowOffset,
+                                col: cell.col,
+                                reason: cell.reason
+                            }))
+
+                            mergedTable.suspicious_cells = mergedTable.suspicious_cells.concat(adjustedSuspiciousCells)
+                        }
+                    })
+
+                    // 设置页码
+                    mergedTable.pages = Array.from(allPages).sort((a, b) => a - b)
+
+                    // 设置图像
+                    mergedTable.page_images = mergedTable.pages.map(page => ({
+                        page: page,
+                        path: `output/images/page_${page}.png`
+                    }))
+
+                    // 更新可疑单元格计数
+                    mergedTable.suspicious_count = mergedTable.suspicious_cells.length
+
+                    return mergedTable
+                },
+
+                // 检查两个表头是否兼容
+                areHeadersCompatible(header1, header2) {
+                    if (header1.length !== header2.length) return false
+
+                    // 检查所有列名是否相同
+                    for (let i = 0; i < header1.length; i++) {
+                        if (header1[i] !== header2[i]) return false
+                    }
+
+                    return true
+                },
+
+                // 显示状态消息
+                showStatusMessage(message, type = 'info') {
+                    this.statusMessage = message
+                    this.statusType = type
+
+                    // 5秒后自动清除消息
+                    setTimeout(() => {
+                        this.statusMessage = null
+                    }, 5000)
+                },
+
+                getAlertClass() {
+                    switch (this.statusType) {
+                        case 'success': return 'alert-success'
+                        case 'error': return 'alert-danger'
+                        case 'info':
+                        default: return 'alert-info'
+                    }
+                }
+                ,
+                // 开始编辑表格名称
+                startEditingTableName() {
+                    this.tableNameInput = this.currentTable.table_type || '';
+                    this.editingTableName = true;
+
+                    // 在下一个渲染周期聚焦到输入框
+                    this.$nextTick(() => {
+                        if (this.$refs.tableNameInput) {
+                            this.$refs.tableNameInput.focus();
+                        }
+                    });
+                },
+
+                // 完成表格名称编辑
+                finishEditingTableName() {
+                    if (this.tableNameInput.trim() !== '' &&
+                        this.tableNameInput !== this.currentTable.table_type) {
+                        // 更新表格名称
+                        this.currentTable.table_type = this.tableNameInput.trim();
+                        this.hasChanges = true;
+                        this.showStatusMessage('表格名称已更新', 'success');
+                    }
+
+                    // 重置编辑状态
+                    this.editingTableName = false;
+                    this.tableNameInput = '';
+                }
+            }
+        }
+
+        // 创建Vue应用
+        new Vue({
+            el: '#app',
+            components: {
+                TableEditor
+            },
+            template: '<table-editor></table-editor>'
+        })
+    </script>
+
+    <!-- Bootstrap图标 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- 引入Bootstrap的JavaScript和相关依赖 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

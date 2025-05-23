@@ -1,0 +1,924 @@
+{
+  "metadata": {
+    "reference_for_page": 12
+  },
+  "tables": [
+    {
+      "page_idx": 11,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "里程范围",
+        "长度",
+        "单位正常涌水量 q(m3/d·km)",
+        "正常涌水量 (m3/d)",
+        "最大涌水量 (m3/d)",
+        "折减正常涌水量 (m3/d)",
+        "折减最大涌水量 (m3/d)",
+        "富水性"
+      ],
+      "rows": [
+        [
+          "1",
+          "DK1012+571.61~1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水",
+          "-"
+        ]
+      ],
+      "table_type": "隧道涌水量计算结果",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_11.png",
+      "is_record_based": true,
+      "pages": [
+        11
+      ],
+      "row_count": 2,
+      "col_count": 9,
+      "raw_rows": [
+        [
+          "序号",
+          "里程范围",
+          "长度",
+          "单位正常涌水量 q(m3/d·km)",
+          "正常涌水量 (m3/d)",
+          "最大涌水量 (m3/d)",
+          "折减正常涌水量 (m3/d)",
+          "折减最大涌水量 (m3/d)",
+          "富水性"
+        ],
+        [
+          "1",
+          "DK1012+571.61~1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水",
+          "-"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+571.61~1038",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1682",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1737",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3474",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1390",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2779",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 11,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_11.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "DK1012+571.61~1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page_idx": 12,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "里程范围",
+        "长度(m)",
+        "涌水量(m³/d)",
+        "正常涌水量(m³/d)",
+        "最大涌水量(m³/d)",
+        "折减正常涌水量(m³/d)",
+        "折减最大涌水量(m³/d)",
+        "富水性"
+      ],
+      "rows": [
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "-"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ]
+      ],
+      "table_type": "隧道涌水量统计表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_12.png",
+      "is_record_based": true,
+      "pages": [
+        12
+      ],
+      "row_count": 8,
+      "col_count": 10,
+      "raw_rows": [
+        [
+          "序号",
+          "里程范围",
+          "长度(m)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "富水性"
+        ],
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "-"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "2",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1013+610~DK1017+280",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3670",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "924",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3390",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "6779",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2712",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "5423",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+280~DK1025+310",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "8030",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+310~DK1028+570",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3260",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1028+570~DK1029+890",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1320",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+890~DK1035+735",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "5845",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+735~DK1039+475",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3740",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1039+475~DK1041+618",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2143",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 12,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_12.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "924",
+          "3390",
+          "6779",
+          "2712",
+          "5423",
+          "弱富水"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水"
+        ]
+      ]
+    }
+  ]
+}

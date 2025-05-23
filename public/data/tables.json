@@ -1,0 +1,5339 @@
+{
+  "metadata": {
+    "timestamp": "2025-04-02T17:02:40.093407",
+    "total_tables": 5,
+    "total_suspicious_cells": 0,
+    "file_name": "tables.json",
+    "source_pdf": "07 伯舒拉岭隧道风险评估报告.pdf",
+    "requires_review": false
+  },
+  "tables": [
+    {
+      "page_idx": 18,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "起始里程",
+        "终止里程",
+        "长度（m）",
+        "岩爆等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1018+580",
+          "6017",
+          "无岩爆"
+        ],
+        [
+          "2",
+          "DK1018+580",
+          "DK1019+840",
+          "1260",
+          "中等岩爆"
+        ],
+        [
+          "3",
+          "DK1019+840",
+          "DK1020+370",
+          "530",
+          "轻微岩爆"
+        ],
+        [
+          "4",
+          "DK1020+370",
+          "DK1022+618",
+          "2248",
+          "无岩爆"
+        ],
+        [
+          "5",
+          "DK1022+618",
+          "DK1024+018",
+          "1400",
+          "轻微岩爆"
+        ],
+        [
+          "6",
+          "DK1024+018",
+          "DK1024+768",
+          "750",
+          "中等岩爆"
+        ],
+        [
+          "7",
+          "DK1024+768",
+          "DK1025+268",
+          "500",
+          "轻微岩爆"
+        ],
+        [
+          "8",
+          "DK1025+268",
+          "DK1025+968",
+          "700",
+          "无岩爆"
+        ],
+        [
+          "9",
+          "DK1025+968",
+          "DK1026+268",
+          "300",
+          "中等岩爆"
+        ],
+        [
+          "10",
+          "DK1026+268",
+          "DK1027+118",
+          "850",
+          "强烈岩爆"
+        ],
+        [
+          "11",
+          "DK1027+118",
+          "DK1027+368",
+          "250",
+          "中等岩爆"
+        ],
+        [
+          "12",
+          "DK1027+368",
+          "DK1029+748",
+          "2380",
+          "无岩爆"
+        ],
+        [
+          "13",
+          "DK1029+748",
+          "DK1030+468",
+          "720",
+          "轻微岩爆"
+        ],
+        [
+          "14",
+          "DK1030+468",
+          "DK1030+867",
+          "399",
+          "无岩爆"
+        ],
+        [
+          "15",
+          "DK1030+867",
+          "DK1031+417",
+          "550",
+          "中等岩爆"
+        ],
+        [
+          "16",
+          "DK1031+417",
+          "DK1032+367",
+          "950",
+          "强烈岩爆"
+        ],
+        [
+          "17",
+          "DK1032+367",
+          "DK1032+867",
+          "500",
+          "中等岩爆"
+        ],
+        [
+          "18",
+          "DK1032+867",
+          "DK1034+067",
+          "1200",
+          "强烈岩爆"
+        ],
+        [
+          "19",
+          "DK1034+067",
+          "DK1034+717",
+          "650",
+          "中等岩爆"
+        ],
+        [
+          "20",
+          "DK1034+717",
+          "DK1041+665",
+          "6948",
+          "无岩爆"
+        ]
+      ],
+      "table_type": "伯舒拉岭隧道岩爆等级统计表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_18.png",
+      "is_record_based": true,
+      "pages": [
+        18
+      ],
+      "row_count": 21,
+      "col_count": 5,
+      "raw_rows": [
+        [
+          "序号",
+          "起始里程",
+          "终止里程",
+          "长度（m）",
+          "岩爆等级"
+        ],
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1018+580",
+          "6017",
+          "无岩爆"
+        ],
+        [
+          "2",
+          "DK1018+580",
+          "DK1019+840",
+          "1260",
+          "中等岩爆"
+        ],
+        [
+          "3",
+          "DK1019+840",
+          "DK1020+370",
+          "530",
+          "轻微岩爆"
+        ],
+        [
+          "4",
+          "DK1020+370",
+          "DK1022+618",
+          "2248",
+          "无岩爆"
+        ],
+        [
+          "5",
+          "DK1022+618",
+          "DK1024+018",
+          "1400",
+          "轻微岩爆"
+        ],
+        [
+          "6",
+          "DK1024+018",
+          "DK1024+768",
+          "750",
+          "中等岩爆"
+        ],
+        [
+          "7",
+          "DK1024+768",
+          "DK1025+268",
+          "500",
+          "轻微岩爆"
+        ],
+        [
+          "8",
+          "DK1025+268",
+          "DK1025+968",
+          "700",
+          "无岩爆"
+        ],
+        [
+          "9",
+          "DK1025+968",
+          "DK1026+268",
+          "300",
+          "中等岩爆"
+        ],
+        [
+          "10",
+          "DK1026+268",
+          "DK1027+118",
+          "850",
+          "强烈岩爆"
+        ],
+        [
+          "11",
+          "DK1027+118",
+          "DK1027+368",
+          "250",
+          "中等岩爆"
+        ],
+        [
+          "12",
+          "DK1027+368",
+          "DK1029+748",
+          "2380",
+          "无岩爆"
+        ],
+        [
+          "13",
+          "DK1029+748",
+          "DK1030+468",
+          "720",
+          "轻微岩爆"
+        ],
+        [
+          "14",
+          "DK1030+468",
+          "DK1030+867",
+          "399",
+          "无岩爆"
+        ],
+        [
+          "15",
+          "DK1030+867",
+          "DK1031+417",
+          "550",
+          "中等岩爆"
+        ],
+        [
+          "16",
+          "DK1031+417",
+          "DK1032+367",
+          "950",
+          "强烈岩爆"
+        ],
+        [
+          "17",
+          "DK1032+367",
+          "DK1032+867",
+          "500",
+          "中等岩爆"
+        ],
+        [
+          "18",
+          "DK1032+867",
+          "DK1034+067",
+          "1200",
+          "强烈岩爆"
+        ],
+        [
+          "19",
+          "DK1034+067",
+          "DK1034+717",
+          "650",
+          "中等岩爆"
+        ],
+        [
+          "20",
+          "DK1034+717",
+          "DK1041+665",
+          "6948",
+          "无岩爆"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+571.61",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1018+580",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "6017",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1018+580",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1019+840",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1260",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1019+840",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1020+370",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "530",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "轻微岩爆",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1020+370",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1022+618",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2248",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1022+618",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1024+018",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1400",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "轻微岩爆",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1024+018",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1024+768",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "750",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1024+768",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+268",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "500",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "轻微岩爆",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 7,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+268",
+            "row": 7,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+968",
+            "row": 7,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "700",
+            "row": 7,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 7,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 8,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+968",
+            "row": 8,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1026+268",
+            "row": 8,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "300",
+            "row": 8,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 8,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "10",
+            "row": 9,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1026+268",
+            "row": 9,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+118",
+            "row": 9,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "850",
+            "row": 9,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强烈岩爆",
+            "row": 9,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "11",
+            "row": 10,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+118",
+            "row": 10,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+368",
+            "row": 10,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "250",
+            "row": 10,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 10,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "12",
+            "row": 11,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+368",
+            "row": 11,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+748",
+            "row": 11,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2380",
+            "row": 11,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 11,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "13",
+            "row": 12,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+748",
+            "row": 12,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+468",
+            "row": 12,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "720",
+            "row": 12,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "轻微岩爆",
+            "row": 12,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "14",
+            "row": 13,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+468",
+            "row": 13,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+867",
+            "row": 13,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "399",
+            "row": 13,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 13,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "15",
+            "row": 14,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+867",
+            "row": 14,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1031+417",
+            "row": 14,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "550",
+            "row": 14,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 14,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "16",
+            "row": 15,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1031+417",
+            "row": 15,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+367",
+            "row": 15,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "950",
+            "row": 15,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强烈岩爆",
+            "row": 15,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "17",
+            "row": 16,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+367",
+            "row": 16,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+867",
+            "row": 16,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "500",
+            "row": 16,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 16,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "18",
+            "row": 17,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+867",
+            "row": 17,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1034+067",
+            "row": 17,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1200",
+            "row": 17,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强烈岩爆",
+            "row": 17,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "19",
+            "row": 18,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1034+067",
+            "row": 18,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1034+717",
+            "row": 18,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "650",
+            "row": 18,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等岩爆",
+            "row": 18,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "20",
+            "row": 19,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1034+717",
+            "row": 19,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1041+665",
+            "row": 19,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "6948",
+            "row": 19,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无岩爆",
+            "row": 19,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 18,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_18.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1018+580",
+          "6017",
+          "无岩爆"
+        ],
+        [
+          "2",
+          "DK1018+580",
+          "DK1019+840",
+          "1260",
+          "中等岩爆"
+        ],
+        [
+          "3",
+          "DK1019+840",
+          "DK1020+370",
+          "530",
+          "轻微岩爆"
+        ],
+        [
+          "4",
+          "DK1020+370",
+          "DK1022+618",
+          "2248",
+          "无岩爆"
+        ],
+        [
+          "5",
+          "DK1022+618",
+          "DK1024+018",
+          "1400",
+          "轻微岩爆"
+        ],
+        [
+          "6",
+          "DK1024+018",
+          "DK1024+768",
+          "750",
+          "中等岩爆"
+        ],
+        [
+          "7",
+          "DK1024+768",
+          "DK1025+268",
+          "500",
+          "轻微岩爆"
+        ],
+        [
+          "8",
+          "DK1025+268",
+          "DK1025+968",
+          "700",
+          "无岩爆"
+        ],
+        [
+          "9",
+          "DK1025+968",
+          "DK1026+268",
+          "300",
+          "中等岩爆"
+        ],
+        [
+          "10",
+          "DK1026+268",
+          "DK1027+118",
+          "850",
+          "强烈岩爆"
+        ],
+        [
+          "11",
+          "DK1027+118",
+          "DK1027+368",
+          "250",
+          "中等岩爆"
+        ],
+        [
+          "12",
+          "DK1027+368",
+          "DK1029+748",
+          "2380",
+          "无岩爆"
+        ],
+        [
+          "13",
+          "DK1029+748",
+          "DK1030+468",
+          "720",
+          "轻微岩爆"
+        ],
+        [
+          "14",
+          "DK1030+468",
+          "DK1030+867",
+          "399",
+          "无岩爆"
+        ],
+        [
+          "15",
+          "DK1030+867",
+          "DK1031+417",
+          "550",
+          "中等岩爆"
+        ],
+        [
+          "16",
+          "DK1031+417",
+          "DK1032+367",
+          "950",
+          "强烈岩爆"
+        ],
+        [
+          "17",
+          "DK1032+367",
+          "DK1032+867",
+          "500",
+          "中等岩爆"
+        ],
+        [
+          "18",
+          "DK1032+867",
+          "DK1034+067",
+          "1200",
+          "强烈岩爆"
+        ],
+        [
+          "19",
+          "DK1034+067",
+          "DK1034+717",
+          "650",
+          "中等岩爆"
+        ],
+        [
+          "20",
+          "DK1034+717",
+          "DK1041+665",
+          "6948",
+          "无岩爆"
+        ]
+      ]
+    },
+    {
+      "page_idx": 19,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "起始里程",
+        "终止里程",
+        "长度（m）",
+        "大变形等级"
+      ],
+      "rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1015+739",
+          "3175.37",
+          "无"
+        ],
+        [
+          "2",
+          "DK1015+739",
+          "DK1015+809",
+          "70",
+          "Ⅱ级"
+        ],
+        [
+          "3",
+          "DK1015+809",
+          "DK1017+277",
+          "1468",
+          "无"
+        ],
+        [
+          "4",
+          "DK1017+277",
+          "DK1017+477",
+          "200",
+          "Ⅲ级"
+        ],
+        [
+          "5",
+          "DK1017+477",
+          "DK1035+732",
+          "18255",
+          "无"
+        ],
+        [
+          "6",
+          "DK1035+732",
+          "DK1035+942",
+          "210",
+          "Ⅱ级"
+        ],
+        [
+          "7",
+          "DK1035+942",
+          "DK1038+010",
+          "2065",
+          "无"
+        ],
+        [
+          "8",
+          "DK1038+010",
+          "DK1038+390",
+          "380",
+          "Ⅲ级"
+        ],
+        [
+          "9",
+          "DK1038+390",
+          "DK1040+075",
+          "1685",
+          "无"
+        ],
+        [
+          "10",
+          "DK1040+075",
+          "DK1040+275",
+          "200",
+          "Ⅰ级"
+        ],
+        [
+          "11",
+          "DK1040+275",
+          "DK1041+665",
+          "1389.823",
+          "无"
+        ]
+      ],
+      "table_type": "伯舒拉岭隧道软岩变形统计表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_19.png",
+      "is_record_based": true,
+      "pages": [
+        19
+      ],
+      "row_count": 12,
+      "col_count": 5,
+      "raw_rows": [
+        [
+          "序号",
+          "起始里程",
+          "终止里程",
+          "长度（m）",
+          "大变形等级"
+        ],
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1015+739",
+          "3175.37",
+          "无"
+        ],
+        [
+          "2",
+          "DK1015+739",
+          "DK1015+809",
+          "70",
+          "Ⅱ级"
+        ],
+        [
+          "3",
+          "DK1015+809",
+          "DK1017+277",
+          "1468",
+          "无"
+        ],
+        [
+          "4",
+          "DK1017+277",
+          "DK1017+477",
+          "200",
+          "Ⅲ级"
+        ],
+        [
+          "5",
+          "DK1017+477",
+          "DK1035+732",
+          "18255",
+          "无"
+        ],
+        [
+          "6",
+          "DK1035+732",
+          "DK1035+942",
+          "210",
+          "Ⅱ级"
+        ],
+        [
+          "7",
+          "DK1035+942",
+          "DK1038+010",
+          "2065",
+          "无"
+        ],
+        [
+          "8",
+          "DK1038+010",
+          "DK1038+390",
+          "380",
+          "Ⅲ级"
+        ],
+        [
+          "9",
+          "DK1038+390",
+          "DK1040+075",
+          "1685",
+          "无"
+        ],
+        [
+          "10",
+          "DK1040+075",
+          "DK1040+275",
+          "200",
+          "Ⅰ级"
+        ],
+        [
+          "11",
+          "DK1040+275",
+          "DK1041+665",
+          "1389.823",
+          "无"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+571.61",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+739",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3175.37",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+739",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+809",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "70",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "Ⅱ级",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+809",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+277",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1468",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+277",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+477",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "200",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "Ⅲ级",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+477",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+732",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "18255",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+732",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+942",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "210",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "Ⅱ级",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+942",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+010",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2065",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 7,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+010",
+            "row": 7,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+390",
+            "row": 7,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "380",
+            "row": 7,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "Ⅲ级",
+            "row": 7,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 8,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+390",
+            "row": 8,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+075",
+            "row": 8,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1685",
+            "row": 8,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 8,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "10",
+            "row": 9,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+075",
+            "row": 9,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+275",
+            "row": 9,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "200",
+            "row": 9,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "Ⅰ级",
+            "row": 9,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "11",
+            "row": 10,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+275",
+            "row": 10,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1041+665",
+            "row": 10,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1389.823",
+            "row": 10,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无",
+            "row": 10,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 19,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_19.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1015+739",
+          "3175.37",
+          "无"
+        ],
+        [
+          "2",
+          "DK1015+739",
+          "DK1015+809",
+          "70",
+          "Ⅱ级"
+        ],
+        [
+          "3",
+          "DK1015+809",
+          "DK1017+277",
+          "1468",
+          "无"
+        ],
+        [
+          "4",
+          "DK1017+277",
+          "DK1017+477",
+          "200",
+          "Ⅲ级"
+        ],
+        [
+          "5",
+          "DK1017+477",
+          "DK1035+732",
+          "18255",
+          "无"
+        ],
+        [
+          "6",
+          "DK1035+732",
+          "DK1035+942",
+          "210",
+          "Ⅱ级"
+        ],
+        [
+          "7",
+          "DK1035+942",
+          "DK1038+010",
+          "2065",
+          "无"
+        ],
+        [
+          "8",
+          "DK1038+010",
+          "DK1038+390",
+          "380",
+          "Ⅲ级"
+        ],
+        [
+          "9",
+          "DK1038+390",
+          "DK1040+075",
+          "1685",
+          "无"
+        ],
+        [
+          "10",
+          "DK1040+075",
+          "DK1040+275",
+          "200",
+          "Ⅰ级"
+        ],
+        [
+          "11",
+          "DK1040+275",
+          "DK1041+665",
+          "1389.823",
+          "无"
+        ]
+      ]
+    },
+    {
+      "page_idx": 20,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "开始里程",
+        "终止里程",
+        "长度",
+        "地温带分级",
+        "热害评估"
+      ],
+      "rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1016+200",
+          "3628.37",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "2",
+          "DK1016+200",
+          "DK1020+800",
+          "4600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "3",
+          "DK1020+800",
+          "DK1022+000",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "4",
+          "DK1022+000",
+          "DK1025+800",
+          "3800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "5",
+          "DK1025+800",
+          "DK1027+700",
+          "1900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "6",
+          "DK1027+700",
+          "DK1028+800",
+          "1100",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "7",
+          "DK1028+800",
+          "DK1029+800",
+          "1000",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "8",
+          "DK1029+800",
+          "DK1031+400",
+          "1600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "9",
+          "DK1031+400",
+          "DK1032+300",
+          "900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "10",
+          "DK1032+300",
+          "DK1033+500",
+          "1200",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "11",
+          "DK1033+500",
+          "DK1035+300",
+          "1800",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "12",
+          "DK1035+300",
+          "DK1036+100",
+          "800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "13",
+          "DK1036+100",
+          "DK1037+303",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "14",
+          "DK1037+303",
+          "DK1040+003",
+          "2700",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "15",
+          "DK1040+003",
+          "DK1041+665",
+          "1662",
+          "常温带（Ⅰ）",
+          "无热害"
+        ]
+      ],
+      "table_type": "伯舒拉岭隧道预测高地温段落",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_20.png",
+      "is_record_based": true,
+      "pages": [
+        20
+      ],
+      "row_count": 16,
+      "col_count": 6,
+      "raw_rows": [
+        [
+          "序号",
+          "开始里程",
+          "终止里程",
+          "长度",
+          "地温带分级",
+          "热害评估"
+        ],
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1016+200",
+          "3628.37",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "2",
+          "DK1016+200",
+          "DK1020+800",
+          "4600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "3",
+          "DK1020+800",
+          "DK1022+000",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "4",
+          "DK1022+000",
+          "DK1025+800",
+          "3800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "5",
+          "DK1025+800",
+          "DK1027+700",
+          "1900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "6",
+          "DK1027+700",
+          "DK1028+800",
+          "1100",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "7",
+          "DK1028+800",
+          "DK1029+800",
+          "1000",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "8",
+          "DK1029+800",
+          "DK1031+400",
+          "1600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "9",
+          "DK1031+400",
+          "DK1032+300",
+          "900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "10",
+          "DK1032+300",
+          "DK1033+500",
+          "1200",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "11",
+          "DK1033+500",
+          "DK1035+300",
+          "1800",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "12",
+          "DK1035+300",
+          "DK1036+100",
+          "800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "13",
+          "DK1036+100",
+          "DK1037+303",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "14",
+          "DK1037+303",
+          "DK1040+003",
+          "2700",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "15",
+          "DK1040+003",
+          "DK1041+665",
+          "1662",
+          "常温带（Ⅰ）",
+          "无热害"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+571.61",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1016+200",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3628.37",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "常温带（Ⅰ）",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无热害",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1016+200",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1020+800",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "4600",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1020+800",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1022+000",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1200",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "常温带（Ⅰ）",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无热害",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1022+000",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+800",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3800",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+800",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+700",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1900",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中高温带（III）",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害中等",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+700",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1028+800",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1100",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 5,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1028+800",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+800",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1000",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "常温带（Ⅰ）",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无热害",
+            "row": 6,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 7,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+800",
+            "row": 7,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1031+400",
+            "row": 7,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1600",
+            "row": 7,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 7,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 7,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 8,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1031+400",
+            "row": 8,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+300",
+            "row": 8,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "900",
+            "row": 8,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中高温带（III）",
+            "row": 8,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害中等",
+            "row": 8,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "10",
+            "row": 9,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1032+300",
+            "row": 9,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1033+500",
+            "row": 9,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1200",
+            "row": 9,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 9,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 9,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "11",
+            "row": 10,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1033+500",
+            "row": 10,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+300",
+            "row": 10,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1800",
+            "row": 10,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中高温带（III）",
+            "row": 10,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害中等",
+            "row": 10,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "12",
+            "row": 11,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+300",
+            "row": 11,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1036+100",
+            "row": 11,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "800",
+            "row": 11,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 11,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 11,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "13",
+            "row": 12,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1036+100",
+            "row": 12,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1037+303",
+            "row": 12,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1200",
+            "row": 12,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "常温带（Ⅰ）",
+            "row": 12,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无热害",
+            "row": 12,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "14",
+            "row": 13,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1037+303",
+            "row": 13,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+003",
+            "row": 13,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2700",
+            "row": 13,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "低高温带（Ⅱ）",
+            "row": 13,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "热害轻微",
+            "row": 13,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "15",
+            "row": 14,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+003",
+            "row": 14,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1041+665",
+            "row": 14,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1662",
+            "row": 14,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "常温带（Ⅰ）",
+            "row": 14,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "无热害",
+            "row": 14,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 20,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_20.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "DK1012+571.61",
+          "DK1016+200",
+          "3628.37",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "2",
+          "DK1016+200",
+          "DK1020+800",
+          "4600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "3",
+          "DK1020+800",
+          "DK1022+000",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "4",
+          "DK1022+000",
+          "DK1025+800",
+          "3800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "5",
+          "DK1025+800",
+          "DK1027+700",
+          "1900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "6",
+          "DK1027+700",
+          "DK1028+800",
+          "1100",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "7",
+          "DK1028+800",
+          "DK1029+800",
+          "1000",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "8",
+          "DK1029+800",
+          "DK1031+400",
+          "1600",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "9",
+          "DK1031+400",
+          "DK1032+300",
+          "900",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "10",
+          "DK1032+300",
+          "DK1033+500",
+          "1200",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "11",
+          "DK1033+500",
+          "DK1035+300",
+          "1800",
+          "中高温带（III）",
+          "热害中等"
+        ],
+        [
+          "12",
+          "DK1035+300",
+          "DK1036+100",
+          "800",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "13",
+          "DK1036+100",
+          "DK1037+303",
+          "1200",
+          "常温带（Ⅰ）",
+          "无热害"
+        ],
+        [
+          "14",
+          "DK1037+303",
+          "DK1040+003",
+          "2700",
+          "低高温带（Ⅱ）",
+          "热害轻微"
+        ],
+        [
+          "15",
+          "DK1040+003",
+          "DK1041+665",
+          "1662",
+          "常温带（Ⅰ）",
+          "无热害"
+        ]
+      ]
+    },
+    {
+      "page_idx": 21,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "工点名称",
+        "钻孔编号",
+        "孔内自然放射性强度",
+        "最高值",
+        "范围",
+        "平均值"
+      ],
+      "rows": [
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "-",
+          "53.66γ",
+          "2.64～53.66γ",
+          "23.69γ"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "-",
+          "56.41γ",
+          "5.13～56.41γ",
+          "21.36γ"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-5",
+          "-",
+          "47.69γ",
+          "5.02～47.69γ",
+          "22.23γ"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "-",
+          "50.29γ",
+          "1.86～50.29γ",
+          "24.97γ"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "-",
+          "48.08γ",
+          "2.63～48.08γ",
+          "24.50γ"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "ZK-7",
+          "-",
+          "45.14γ",
+          "6.04～45.14γ",
+          "25.09γ"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "-",
+          "63.52γ",
+          "19.14～63.52γ",
+          "38.15γ"
+        ]
+      ],
+      "table_type": "自然放射性强度表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_21.png",
+      "is_record_based": true,
+      "pages": [
+        21
+      ],
+      "row_count": 10,
+      "col_count": 7,
+      "raw_rows": [
+        [
+          "序号",
+          "工点名称",
+          "钻孔编号",
+          "孔内自然放射性强度",
+          "最高值",
+          "范围",
+          "平均值"
+        ],
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "-",
+          "53.66γ",
+          "2.64～53.66γ",
+          "23.69γ"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "-",
+          "56.41γ",
+          "5.13～56.41γ",
+          "21.36γ"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-5",
+          "-",
+          "47.69γ",
+          "5.02～47.69γ",
+          "22.23γ"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "-",
+          "50.29γ",
+          "1.86～50.29γ",
+          "24.97γ"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "-",
+          "48.08γ",
+          "2.63～48.08γ",
+          "24.50γ"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "ZK-7",
+          "-",
+          "45.14γ",
+          "6.04～45.14γ",
+          "25.09γ"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "-",
+          "63.52γ",
+          "19.14～63.52γ",
+          "38.15γ"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-1",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "53.66γ",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2.64～53.66γ",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "23.69γ",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-2",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "46.39γ",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1.88～46.39γ",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "27.09γ",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-3",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "46.39γ",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1.88～46.39γ",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "27.09γ",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-4",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "56.41γ",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "5.13～56.41γ",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "21.36γ",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-5",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "47.69γ",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "5.02～47.69γ",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "22.23γ",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-27",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "50.29γ",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1.86～50.29γ",
+            "row": 5,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "24.97γ",
+            "row": 5,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-28",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "48.08γ",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2.63～48.08γ",
+            "row": 6,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "24.50γ",
+            "row": 6,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 7,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 7,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "ZK-7",
+            "row": 7,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 7,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "45.14γ",
+            "row": 7,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "6.04～45.14γ",
+            "row": 7,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "25.09γ",
+            "row": 7,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 8,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 8,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2AC51KSZ-8",
+            "row": 8,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 8,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "63.52γ",
+            "row": 8,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "19.14～63.52γ",
+            "row": 8,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "38.15γ",
+            "row": 8,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 21,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_21.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "-",
+          "53.66γ",
+          "2.64～53.66γ",
+          "23.69γ"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "-",
+          "46.39γ",
+          "1.88～46.39γ",
+          "27.09γ"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "-",
+          "56.41γ",
+          "5.13～56.41γ",
+          "21.36γ"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-5",
+          "-",
+          "47.69γ",
+          "5.02～47.69γ",
+          "22.23γ"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "-",
+          "50.29γ",
+          "1.86～50.29γ",
+          "24.97γ"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "-",
+          "48.08γ",
+          "2.63～48.08γ",
+          "24.50γ"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "ZK-7",
+          "-",
+          "45.14γ",
+          "6.04～45.14γ",
+          "25.09γ"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "-",
+          "63.52γ",
+          "19.14～63.52γ",
+          "38.15γ"
+        ]
+      ]
+    },
+    {
+      "page_idx": 21,
+      "table_idx": 2,
+      "header": [
+        "序号",
+        "工程名称",
+        "钻孔编号",
+        "测试深度",
+        "CH4",
+        "H2S",
+        "CO2",
+        "SO2",
+        "H2",
+        "Cl2",
+        "NO2"
+      ],
+      "rows": [
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "200",
+          "0",
+          "0",
+          "7000",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "155",
+          "480",
+          "0",
+          "464",
+          "0",
+          "0",
+          "0",
+          "0.03"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "150",
+          "340",
+          "0.3",
+          "0",
+          "0.7",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "200",
+          "88",
+          "0",
+          "600",
+          "0",
+          "0",
+          "0",
+          "0.24"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "160",
+          "76",
+          "0",
+          "2300",
+          "0",
+          "0",
+          "0",
+          "0.16"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "574",
+          "8020",
+          "0.18",
+          "2016",
+          "1.07",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "-",
+          "745",
+          "637",
+          "0",
+          "606",
+          "0",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "-",
+          "1111",
+          "3480",
+          "0.22",
+          "3930",
+          "0.06",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "140",
+          "0",
+          "0",
+          "20",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "10",
+          "伯舒拉岭隧道",
+          "-",
+          "860",
+          "0",
+          "0",
+          "596",
+          "0.05",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "11",
+          "伯舒拉岭隧道",
+          "-",
+          "1065",
+          "84",
+          "0",
+          "1700",
+          "0",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "12",
+          "伯舒拉岭隧道",
+          "CZ3SZ-10",
+          "130",
+          "0",
+          "0.04",
+          "1450",
+          "0.03",
+          "0",
+          "0",
+          "0.02"
+        ],
+        [
+          "13",
+          "伯舒拉岭隧道",
+          "-",
+          "335",
+          "0",
+          "0.06",
+          "220",
+          "0",
+          "0",
+          "0",
+          "0.57"
+        ]
+      ],
+      "table_type": "有害气体测试统计表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_21.png",
+      "is_record_based": true,
+      "pages": [
+        21
+      ],
+      "row_count": 14,
+      "col_count": 11,
+      "raw_rows": [
+        [
+          "序号",
+          "工程名称",
+          "钻孔编号",
+          "测试深度",
+          "CH4",
+          "H2S",
+          "CO2",
+          "SO2",
+          "H2",
+          "Cl2",
+          "NO2"
+        ],
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "200",
+          "0",
+          "0",
+          "7000",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "155",
+          "480",
+          "0",
+          "464",
+          "0",
+          "0",
+          "0",
+          "0.03"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "150",
+          "340",
+          "0.3",
+          "0",
+          "0.7",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "200",
+          "88",
+          "0",
+          "600",
+          "0",
+          "0",
+          "0",
+          "0.24"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "160",
+          "76",
+          "0",
+          "2300",
+          "0",
+          "0",
+          "0",
+          "0.16"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "574",
+          "8020",
+          "0.18",
+          "2016",
+          "1.07",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "-",
+          "745",
+          "637",
+          "0",
+          "606",
+          "0",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "-",
+          "1111",
+          "3480",
+          "0.22",
+          "3930",
+          "0.06",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "140",
+          "0",
+          "0",
+          "20",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "10",
+          "伯舒拉岭隧道",
+          "-",
+          "860",
+          "0",
+          "0",
+          "596",
+          "0.05",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "11",
+          "伯舒拉岭隧道",
+          "-",
+          "1065",
+          "84",
+          "0",
+          "1700",
+          "0",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "12",
+          "伯舒拉岭隧道",
+          "CZ3SZ-10",
+          "130",
+          "0",
+          "0.04",
+          "1450",
+          "0.03",
+          "0",
+          "0",
+          "0.02"
+        ],
+        [
+          "13",
+          "伯舒拉岭隧道",
+          "-",
+          "335",
+          "0",
+          "0.06",
+          "220",
+          "0",
+          "0",
+          "0",
+          "0.57"
+        ]
+      ],
+      "source_file": "07 伯舒拉岭隧道风险评估报告.pdf",
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2AC51KSZ-8",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "200",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "7000",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 0,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-1",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "155",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "480",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "464",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 1,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.03",
+            "row": 1,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-2",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "150",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "340",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.3",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.7",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 2,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.1",
+            "row": 2,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-3",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "200",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "88",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "600",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 3,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.24",
+            "row": 3,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-26-4",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "160",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "76",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2300",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 4,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 4,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 4,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.16",
+            "row": 4,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-27",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "574",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "8020",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.18",
+            "row": 5,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2016",
+            "row": 5,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1.07",
+            "row": 5,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 5,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 5,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 5,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "745",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "637",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 6,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "606",
+            "row": 6,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 6,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 6,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 6,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.1",
+            "row": 6,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 7,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 7,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 7,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1111",
+            "row": 7,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3480",
+            "row": 7,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.22",
+            "row": 7,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3930",
+            "row": 7,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.06",
+            "row": 7,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 7,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 7,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.06",
+            "row": 7,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 8,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 8,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2DSSZ-28",
+            "row": 8,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "140",
+            "row": 8,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "20",
+            "row": 8,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 8,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "10",
+            "row": 9,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 9,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 9,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "860",
+            "row": 9,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 9,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 9,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "596",
+            "row": 9,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.05",
+            "row": 9,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 9,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 9,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 9,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "11",
+            "row": 10,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 10,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 10,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1065",
+            "row": 10,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "84",
+            "row": 10,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 10,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1700",
+            "row": 10,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 10,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 10,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 10,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.06",
+            "row": 10,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "12",
+            "row": 11,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 11,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "CZ3SZ-10",
+            "row": 11,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "130",
+            "row": 11,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 11,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.04",
+            "row": 11,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1450",
+            "row": 11,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.03",
+            "row": 11,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 11,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 11,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.02",
+            "row": 11,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "13",
+            "row": 12,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "伯舒拉岭隧道",
+            "row": 12,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 12,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "335",
+            "row": 12,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 12,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.06",
+            "row": 12,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "220",
+            "row": 12,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 12,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 12,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0",
+            "row": 12,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "0.57",
+            "row": 12,
+            "col": 10,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 21,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_21.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "伯舒拉岭隧道",
+          "2AC51KSZ-8",
+          "200",
+          "0",
+          "0",
+          "7000",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-1",
+          "155",
+          "480",
+          "0",
+          "464",
+          "0",
+          "0",
+          "0",
+          "0.03"
+        ],
+        [
+          "3",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-2",
+          "150",
+          "340",
+          "0.3",
+          "0",
+          "0.7",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "4",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-3",
+          "200",
+          "88",
+          "0",
+          "600",
+          "0",
+          "0",
+          "0",
+          "0.24"
+        ],
+        [
+          "5",
+          "伯舒拉岭隧道",
+          "2DSSZ-26-4",
+          "160",
+          "76",
+          "0",
+          "2300",
+          "0",
+          "0",
+          "0",
+          "0.16"
+        ],
+        [
+          "6",
+          "伯舒拉岭隧道",
+          "2DSSZ-27",
+          "574",
+          "8020",
+          "0.18",
+          "2016",
+          "1.07",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "7",
+          "伯舒拉岭隧道",
+          "-",
+          "745",
+          "637",
+          "0",
+          "606",
+          "0",
+          "0",
+          "0",
+          "0.1"
+        ],
+        [
+          "8",
+          "伯舒拉岭隧道",
+          "-",
+          "1111",
+          "3480",
+          "0.22",
+          "3930",
+          "0.06",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "9",
+          "伯舒拉岭隧道",
+          "2DSSZ-28",
+          "140",
+          "0",
+          "0",
+          "20",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "10",
+          "伯舒拉岭隧道",
+          "-",
+          "860",
+          "0",
+          "0",
+          "596",
+          "0.05",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "11",
+          "伯舒拉岭隧道",
+          "-",
+          "1065",
+          "84",
+          "0",
+          "1700",
+          "0",
+          "0",
+          "0",
+          "0.06"
+        ],
+        [
+          "12",
+          "伯舒拉岭隧道",
+          "CZ3SZ-10",
+          "130",
+          "0",
+          "0.04",
+          "1450",
+          "0.03",
+          "0",
+          "0",
+          "0.02"
+        ],
+        [
+          "13",
+          "伯舒拉岭隧道",
+          "-",
+          "335",
+          "0",
+          "0.06",
+          "220",
+          "0",
+          "0",
+          "0",
+          "0.57"
+        ]
+      ]
+    }
+  ]
+}

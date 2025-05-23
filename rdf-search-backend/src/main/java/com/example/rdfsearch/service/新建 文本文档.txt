@@ -1,0 +1,16 @@
+文件名：TaskService.java
+位置：D:\USERjiemian\rdf-search-app\rdf-search-backend\src\main\java\com\example\rdfsearch\service\TaskService.java
+作用：
+
+实现任务管理的业务逻辑
+与SparqlService交互以执行任务相关的查询
+
+任务执行器 (TaskExecutor.java 或类似)
+
+位置：rdf-search-backend/src/main/java/com/yourpackage/service/TaskExecutor.java
+功能：实际执行任务的逻辑，根据任务类型和参数生成SPARQL查询并执行
+
+任务结果处理器 (TaskResultProcessor.java 或类似)
+
+位置：rdf-search-backend/src/main/java/com/yourpackage/service/TaskResultProcessor.java
+功能：处理查询结果，进行数据转换或格式化

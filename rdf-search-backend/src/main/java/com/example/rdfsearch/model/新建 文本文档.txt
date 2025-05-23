@@ -1,0 +1,6 @@
+文件名：Task.java
+位置：D:\USERjiemian\rdf-search-app\rdf-search-backend\src\main\java\com\example\rdfsearch\model\Task.java
+作用：
+
+定义任务对象的Java模型
+包含任务属性和转换方法

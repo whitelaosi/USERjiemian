@@ -1,0 +1,7 @@
+任务类型定义
+文件名：taskTypes.js
+位置：D:\USERjiemian\rdf-search-app\src\models\taskTypes.js
+作用：
+
+定义系统支持的所有任务类型及其属性
+存储每种任务类型的查询模板

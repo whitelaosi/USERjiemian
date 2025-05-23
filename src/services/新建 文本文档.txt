@@ -1,0 +1,13 @@
+RDF转换服务
+文件名：taskService.js
+位置：D:\USERjiemian\rdf-search-app\src\services\taskService.js
+作用：
+
+任务数据与RDF之间的转换
+处理任务的CRUD操作
+与后端API通信
+
+TaskExecutionService (taskExecutionService.js)
+
+位置：rdf-search-app/src/services/taskExecutionService.js
+原因：这是前端的服务类，负责管理任务执行的客户端状态和与后端API的交互

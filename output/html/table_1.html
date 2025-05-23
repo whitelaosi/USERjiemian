@@ -1,0 +1,129 @@
+
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <meta charset="utf-8">
+                    <title>表格数据</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; margin: 20px; }
+                        h1 { color: #333; }
+                        .info { margin-bottom: 20px; }
+                        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                        th { background-color: #f2f2f2; color: #333; }
+                        tr:nth-child(even) { background-color: #f9f9f9; }
+                        tr:hover { background-color: #f1f1f1; }
+                        img { max-width: 100%; margin-top: 20px; }
+                        .page-note { color: blue; font-weight: bold; }
+                    </style>
+                </head>
+                <body>
+                    <h1>表格数据</h1>
+                    <div class="info">
+                        <p>起始页码: 12</p>
+                        <p>表格类型: 隧道涌水量统计表</p>
+                        <p>提取方法: LLM</p>
+                
+                        <p class="page-note">注意：此表格使用了基于序号的记录处理方法提取，支持完整合并跨页单元格文本</p>
+                    
+                    </div>
+                <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>序号</th>
+      <th>里程范围</th>
+      <th>长度(m)</th>
+      <th>涌水量(m³/d)</th>
+      <th>正常涌水量(m³/d)</th>
+      <th>最大涌水量(m³/d)</th>
+      <th>折减正常涌水量(m³/d)</th>
+      <th>折减最大涌水量(m³/d)</th>
+      <th>富水性</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>DK1013+610~DK1017+280</td>
+      <td>3670</td>
+      <td>924</td>
+      <td>3390</td>
+      <td>6779</td>
+      <td>2712</td>
+      <td>5423</td>
+      <td>弱富水</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>DK1017+280~DK1025+310</td>
+      <td>8030</td>
+      <td>2923</td>
+      <td>23475</td>
+      <td>58686</td>
+      <td>18780</td>
+      <td>46949</td>
+      <td>中等富水</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>DK1025+310~DK1028+570</td>
+      <td>3260</td>
+      <td>2627</td>
+      <td>8564</td>
+      <td>17127</td>
+      <td>6851</td>
+      <td>13702</td>
+      <td>中等富水</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>DK1028+570~DK1029+890</td>
+      <td>1320</td>
+      <td>5618</td>
+      <td>7416</td>
+      <td>22247</td>
+      <td>5932</td>
+      <td>17797</td>
+      <td>强富水</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DK1029+890~DK1035+735</td>
+      <td>5845</td>
+      <td>2726</td>
+      <td>15934</td>
+      <td>31868</td>
+      <td>12747</td>
+      <td>25495</td>
+      <td>中等富水</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>DK1035+735~DK1039+475</td>
+      <td>3740</td>
+      <td>1554</td>
+      <td>5812</td>
+      <td>11624</td>
+      <td>4650</td>
+      <td>9299</td>
+      <td>中等富水</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>DK1039+475~DK1041+618</td>
+      <td>2143</td>
+      <td>941</td>
+      <td>2042</td>
+      <td>4084</td>
+      <td>1634</td>
+      <td>3267</td>
+      <td>弱富水</td>
+    </tr>
+  </tbody>
+</table>
+                    <h2>原始页面图像:</h2>
+                    <img src="file://D:\USERjiemian\rdf-search-app\output\images\page_12.png" alt="原始页面">
+                    
+                </body>
+                </html>
+                

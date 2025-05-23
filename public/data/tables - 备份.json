@@ -1,0 +1,2700 @@
+{
+  "tables": [
+    {
+      "page_idx": 8,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "断层编号",
+        "断层名称",
+        "断层性质",
+        "断层物质",
+        "断层产状",
+        "断层破碎带宽（m）",
+        "与洞身相交里程",
+        "与隧道交角"
+      ],
+      "rows": [
+        [
+          "1",
+          "F35",
+          "苦子曲-巴曲断裂",
+          "正断层",
+          "断层角砾、少量断层泥",
+          "N58W/84N",
+          "60",
+          "DK1012+850~DK1012+910",
+          "62°"
+        ],
+        [
+          "2",
+          "F36",
+          "加木错-真空断裂",
+          "逆断层",
+          "断层角砾",
+          "N48W/72S",
+          "60",
+          "DK1015+750~DK1015+810",
+          "76°"
+        ],
+        [
+          "3",
+          "F37",
+          "野浦弄巴-仲沙断裂",
+          "逆断层",
+          "断层角砾",
+          "N36W/30N",
+          "120",
+          "DK1017+280~DK1017+480",
+          "90°"
+        ],
+        [
+          "4",
+          "F39",
+          "雪龙曲-罗压",
+          "扭性断层",
+          "断层角砾",
+          "N38W/68N",
+          "60~260",
+          "DK1027+930~DK1028+170",
+          "85°"
+        ]
+      ],
+      "table_type": "伯舒拉岭隧道正线通过断裂构造汇总表",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_8.png",
+      "is_record_based": true,
+      "pages": [
+        8
+      ],
+      "row_count": 5,
+      "col_count": 9,
+      "raw_rows": [
+        [
+          "序号",
+          "断层编号",
+          "断层名称",
+          "断层性质",
+          "断层物质",
+          "断层产状",
+          "断层破碎带宽（m）",
+          "与洞身相交里程",
+          "与隧道交角"
+        ],
+        [
+          "1",
+          "F35",
+          "苦子曲-巴曲断裂",
+          "正断层",
+          "断层角砾、少量断层泥",
+          "N58W/84N",
+          "60",
+          "DK1012+850~DK1012+910",
+          "62°"
+        ],
+        [
+          "2",
+          "F36",
+          "加木错-真空断裂",
+          "逆断层",
+          "断层角砾",
+          "N48W/72S",
+          "60",
+          "DK1015+750~DK1015+810",
+          "76°"
+        ],
+        [
+          "3",
+          "F37",
+          "野浦弄巴-仲沙断裂",
+          "逆断层",
+          "断层角砾",
+          "N36W/30N",
+          "120",
+          "DK1017+280~DK1017+480",
+          "90°"
+        ],
+        [
+          "4",
+          "F39",
+          "雪龙曲-罗压",
+          "扭性断层",
+          "断层角砾",
+          "N38W/68N",
+          "60~260",
+          "DK1027+930~DK1028+170",
+          "85°"
+        ]
+      ],
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": 2,
+        "fault_property_idx": 3,
+        "fault_number_idx": 1,
+        "fault_material_idx": 4
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F35",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "苦子曲-巴曲断裂",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "正断层",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、少量断层泥",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N58W/84N",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+850~DK1012+910",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "62°",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F36",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "加木错-真空断裂",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N48W/72S",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+750~DK1015+810",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "76°",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F37",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "野浦弄巴-仲沙断裂",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N36W/30N",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "120",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+280~DK1017+480",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "90°",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F39",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "雪龙曲-罗马曲断裂",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压扭性断裂",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N38W/68N",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60~260",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+930~DK1028+170",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "85°",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 8,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_8.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "F35",
+          "苦子曲-巴曲断裂",
+          "正断层",
+          "断层角砾、少量断层泥",
+          "N58W/84N",
+          "60",
+          "DK1012+850~DK1012+910",
+          "62°"
+        ],
+        [
+          "2",
+          "F36",
+          "加木错-真空断裂",
+          "逆断层",
+          "断层角砾",
+          "N48W/72S",
+          "60",
+          "DK1015+750~DK1015+810",
+          "76°"
+        ],
+        [
+          "3",
+          "F37",
+          "野浦弄巴-仲沙断裂",
+          "逆断层",
+          "断层角砾",
+          "N36W/30N",
+          "120",
+          "DK1017+280~DK1017+480",
+          "90°"
+        ],
+        [
+          "4",
+          "F39",
+          "雪龙曲-罗马曲断裂",
+          "压扭性断裂",
+          "断层角砾",
+          "N38W/68N",
+          "60~260",
+          "DK1027+930~DK1028+170",
+          "85°"
+        ]
+      ]
+    },
+    {
+      "page_idx": 9,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "断层编号",
+        "断层名称",
+        "断层性质",
+        "断层物质",
+        "断层产状",
+        "断层破碎带宽（m）",
+        "与洞身相交里程",
+        "与隧道交角"
+      ],
+      "rows": [
+        [
+          "5",
+          "f40-1",
+          "打九团-瓦纳曲断层",
+          "逆断层",
+          "压碎岩、断层角砾",
+          "N53W/55S",
+          "80~150",
+          "DK1030+580～DK1030+720",
+          "80°"
+        ],
+        [
+          "6",
+          "F40",
+          "歇龙曲-恶鲁弄巴断裂",
+          "压扭性逆断层",
+          "压碎岩、断层角砾",
+          "N28W/75S",
+          "100~200",
+          "DK1035+735～DK1035+945",
+          "68°"
+        ],
+        [
+          "7",
+          "f41-1",
+          "灯杂-古杂断层",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N50W/70N",
+          "20~500",
+          "DK1038+010～DK1038+390",
+          "90°"
+        ],
+        [
+          "8",
+          "F41",
+          "通更断裂",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N39W/73N",
+          "50~200",
+          "DK1040+075～DK1040+275",
+          "78°"
+        ],
+        [
+          "9",
+          "褶皱",
+          "-",
+          "向斜",
+          "-",
+          "N58W",
+          "500",
+          "DK1038+950~DK1039+450",
+          "-"
+        ]
+      ],
+      "table_type": "地质断层信息",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_9.png",
+      "is_record_based": true,
+      "pages": [
+        9
+      ],
+      "row_count": 6,
+      "col_count": 9,
+      "raw_rows": [
+        [
+          "序号",
+          "断层编号",
+          "断层名称",
+          "断层性质",
+          "断层物质",
+          "断层产状",
+          "断层破碎带宽（m）",
+          "与洞身相交里程",
+          "与隧道交角"
+        ],
+        [
+          "5",
+          "f40-1",
+          "打九团-瓦纳曲断层",
+          "逆断层",
+          "压碎岩、断层角砾",
+          "N53W/55S",
+          "80~150",
+          "DK1030+580～DK1030+720",
+          "80°"
+        ],
+        [
+          "6",
+          "F40",
+          "歇龙曲-恶鲁弄巴断裂",
+          "压扭性逆断层",
+          "压碎岩、断层角砾",
+          "N28W/75S",
+          "100~200",
+          "DK1035+735～DK1035+945",
+          "68°"
+        ],
+        [
+          "7",
+          "f41-1",
+          "灯杂-古杂断层",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N50W/70N",
+          "20~500",
+          "DK1038+010～DK1038+390",
+          "90°"
+        ],
+        [
+          "8",
+          "F41",
+          "通更断裂",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N39W/73N",
+          "50~200",
+          "DK1040+075～DK1040+275",
+          "78°"
+        ],
+        [
+          "9",
+          "褶皱",
+          "-",
+          "向斜",
+          "-",
+          "N58W",
+          "500",
+          "DK1038+950~DK1039+450",
+          "-"
+        ]
+      ],
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": 2,
+        "fault_property_idx": 3,
+        "fault_number_idx": 1,
+        "fault_material_idx": 4
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "5",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "f40-1",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "打九团-瓦纳曲断层",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压碎岩、断层角砾",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N53W/55S",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "80~150",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+580～DK1030+720",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "80°",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F40",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "歇龙曲-恶鲁弄巴断裂",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压扭性逆断层",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压碎岩、断层角砾",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N28W/75S",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "100~200",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+735～DK1035+945",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "68°",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "f41-1",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "灯杂-古杂断层",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、透镜状岩块",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N50W/70N",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "20~500",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+010～DK1038+390",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "90°",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F41",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "通更断裂",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、透镜状岩块",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N39W/73N",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "50~200",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+075～DK1040+275",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "78°",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "褶皱",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "向斜",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N58W",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "500",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+950~DK1039+450",
+            "row": 4,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 9,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_9.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "5",
+          "f40-1",
+          "打九团-瓦纳曲断层",
+          "逆断层",
+          "压碎岩、断层角砾",
+          "N53W/55S",
+          "80~150",
+          "DK1030+580～DK1030+720",
+          "80°"
+        ],
+        [
+          "6",
+          "F40",
+          "歇龙曲-恶鲁弄巴断裂",
+          "压扭性逆断层",
+          "压碎岩、断层角砾",
+          "N28W/75S",
+          "100~200",
+          "DK1035+735～DK1035+945",
+          "68°"
+        ],
+        [
+          "7",
+          "f41-1",
+          "灯杂-古杂断层",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N50W/70N",
+          "20~500",
+          "DK1038+010～DK1038+390",
+          "90°"
+        ],
+        [
+          "8",
+          "F41",
+          "通更断裂",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N39W/73N",
+          "50~200",
+          "DK1040+075～DK1040+275",
+          "78°"
+        ],
+        [
+          "9",
+          "褶皱",
+          "-",
+          "向斜",
+          "-",
+          "N58W",
+          "500",
+          "DK1038+950~DK1039+450",
+          "-"
+        ]
+      ]
+    },
+    {
+      "page_idx": 11,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "里程范围",
+        "长度",
+        "单位正常涌水量 q(m3/d·km)",
+        "正常涌水量 (m3/d)",
+        "最大涌水量 (m3/d)",
+        "折减正常涌水量 (m3/d)",
+        "折减最大涌水量 (m3/d)",
+        "富水性"
+      ],
+      "rows": [
+        [
+          "1",
+          "DK1012+571.61~",
+          "1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水"
+        ]
+      ],
+      "table_type": "隧道涌水量计算结果",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_11.png",
+      "is_record_based": true,
+      "pages": [
+        11
+      ],
+      "row_count": 2,
+      "col_count": 9,
+      "raw_rows": [
+        [
+          "序号",
+          "里程范围",
+          "长度",
+          "单位正常涌水量 q(m3/d·km)",
+          "正常涌水量 (m3/d)",
+          "最大涌水量 (m3/d)",
+          "折减正常涌水量 (m3/d)",
+          "折减最大涌水量 (m3/d)",
+          "富水性"
+        ],
+        [
+          "1",
+          "DK1012+571.61~",
+          "1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水"
+        ]
+      ],
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+571.61~DK1013+610",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1038",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1682",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1737",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3474",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1390",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2779",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 11,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_11.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "1",
+          "DK1012+571.61~DK1013+610",
+          "1038",
+          "1682",
+          "1737",
+          "3474",
+          "1390",
+          "2779",
+          "中等富水"
+        ]
+      ]
+    },
+    {
+      "page_idx": 12,
+      "table_idx": 1,
+      "header": [
+        "序号",
+        "区间",
+        "长度(m)",
+        "涌水量(m³/d)",
+        "涌水量(m³/d)",
+        "涌水量(m³/d)",
+        "涌水量(m³/d)",
+        "涌水量(m³/d)",
+        "涌水量(m³/d)",
+        "富水性"
+      ],
+      "rows": [
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "-"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ]
+      ],
+      "table_type": "隧道水文地质条件评价",
+      "extraction_method": "LLM",
+      "image_path": "output/images/page_12.png",
+      "is_record_based": true,
+      "pages": [
+        12
+      ],
+      "row_count": 8,
+      "col_count": 10,
+      "raw_rows": [
+        [
+          "序号",
+          "区间",
+          "长度(m)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "涌水量(m³/d)",
+          "富水性"
+        ],
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "-"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ]
+      ],
+      "is_cross_page": false,
+      "special_columns": {
+        "fault_name_idx": -1,
+        "fault_property_idx": -1,
+        "fault_number_idx": -1,
+        "fault_material_idx": -1
+      },
+      "enhanced_rows": [
+        [
+          {
+            "value": "2",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1013+610~DK1017+280",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3670",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 0,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+280~DK1025+310",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "8030",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 1,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1025+310~DK1028+570",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3260",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 2,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1028+570~DK1029+890",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "1320",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "强富水",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 3,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1029+890~DK1035+735",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "5845",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 4,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 5,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+735~DK1039+475",
+            "row": 5,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "3740",
+            "row": 5,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "中等富水",
+            "row": 5,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 5,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 6,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1039+475~DK1041+618",
+            "row": 6,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "2143",
+            "row": 6,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "弱富水",
+            "row": 6,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 6,
+            "col": 9,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 12,
+          "path": "D:\\rdf-jsonld-integration\\scripts\\pdf_processor\\output\\images\\page_12.png"
+        }
+      ],
+      "original_rows": [
+        [
+          "2",
+          "DK1013+610~DK1017+280",
+          "3670",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ],
+        [
+          "3",
+          "DK1017+280~DK1025+310",
+          "8030",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "4",
+          "DK1025+310~DK1028+570",
+          "3260",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "5",
+          "DK1028+570~DK1029+890",
+          "1320",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "强富水",
+          "-"
+        ],
+        [
+          "6",
+          "DK1029+890~DK1035+735",
+          "5845",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "7",
+          "DK1035+735~DK1039+475",
+          "3740",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "中等富水",
+          "-"
+        ],
+        [
+          "8",
+          "DK1039+475~DK1041+618",
+          "2143",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "弱富水",
+          "-"
+        ]
+      ]
+    },
+    {
+      "header": [
+        "序号",
+        "断层编号",
+        "断层名称",
+        "断层性质",
+        "断层物质",
+        "断层产状",
+        "断层破碎带宽（m）",
+        "与洞身相交里程",
+        "与隧道交角"
+      ],
+      "enhanced_rows": [
+        [
+          {
+            "value": "1",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F35",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "苦子曲-巴曲断裂",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "正断层",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、少量断层泥",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N58W/84N",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1012+850~DK1012+910",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "62°",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "2",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F36",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "加木错-真空断裂",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N48W/72S",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1015+750~DK1015+810",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "76°",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "3",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F37",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "野浦弄巴-仲沙断裂",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N36W/30N",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "120",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1017+280~DK1017+480",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "90°",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "4",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F39",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "雪龙曲-罗马曲断裂",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压扭性断裂",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N38W/68N",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "60~260",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1027+930~DK1028+170",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "85°",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "5",
+            "row": 0,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "f40-1",
+            "row": 0,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "打九团-瓦纳曲断层",
+            "row": 0,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 0,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压碎岩、断层角砾",
+            "row": 0,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N53W/55S",
+            "row": 0,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "80~150",
+            "row": 0,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1030+580～DK1030+720",
+            "row": 0,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "80°",
+            "row": 0,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "6",
+            "row": 1,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F40",
+            "row": 1,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "歇龙曲-恶鲁弄巴断裂",
+            "row": 1,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压扭性逆断层",
+            "row": 1,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "压碎岩、断层角砾",
+            "row": 1,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N28W/75S",
+            "row": 1,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "100~200",
+            "row": 1,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1035+735～DK1035+945",
+            "row": 1,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "68°",
+            "row": 1,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "7",
+            "row": 2,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "f41-1",
+            "row": 2,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "灯杂-古杂断层",
+            "row": 2,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 2,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、透镜状岩块",
+            "row": 2,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N50W/70N",
+            "row": 2,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "20~500",
+            "row": 2,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+010～DK1038+390",
+            "row": 2,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "90°",
+            "row": 2,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "8",
+            "row": 3,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "F41",
+            "row": 3,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "通更断裂",
+            "row": 3,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "逆断层",
+            "row": 3,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "断层角砾、透镜状岩块",
+            "row": 3,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N39W/73N",
+            "row": 3,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "50~200",
+            "row": 3,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1040+075～DK1040+275",
+            "row": 3,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "78°",
+            "row": 3,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ],
+        [
+          {
+            "value": "9",
+            "row": 4,
+            "col": 0,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "褶皱",
+            "row": 4,
+            "col": 1,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 2,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "向斜",
+            "row": 4,
+            "col": 3,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 4,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "N58W",
+            "row": 4,
+            "col": 5,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "500",
+            "row": 4,
+            "col": 6,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "DK1038+950~DK1039+450",
+            "row": 4,
+            "col": 7,
+            "suspicious": false,
+            "reason": ""
+          },
+          {
+            "value": "-",
+            "row": 4,
+            "col": 8,
+            "suspicious": false,
+            "reason": ""
+          }
+        ]
+      ],
+      "original_rows": [
+        [
+          "1",
+          "F35",
+          "苦子曲-巴曲断裂",
+          "正断层",
+          "断层角砾、少量断层泥",
+          "N58W/84N",
+          "60",
+          "DK1012+850~DK1012+910",
+          "62°"
+        ],
+        [
+          "2",
+          "F36",
+          "加木错-真空断裂",
+          "逆断层",
+          "断层角砾",
+          "N48W/72S",
+          "60",
+          "DK1015+750~DK1015+810",
+          "76°"
+        ],
+        [
+          "3",
+          "F37",
+          "野浦弄巴-仲沙断裂",
+          "逆断层",
+          "断层角砾",
+          "N36W/30N",
+          "120",
+          "DK1017+280~DK1017+480",
+          "90°"
+        ],
+        [
+          "4",
+          "F39",
+          "雪龙曲-罗马曲断裂",
+          "压扭性断裂",
+          "断层角砾",
+          "N38W/68N",
+          "60~260",
+          "DK1027+930~DK1028+170",
+          "85°"
+        ],
+        [
+          "5",
+          "f40-1",
+          "打九团-瓦纳曲断层",
+          "逆断层",
+          "压碎岩、断层角砾",
+          "N53W/55S",
+          "80~150",
+          "DK1030+580～DK1030+720",
+          "80°"
+        ],
+        [
+          "6",
+          "F40",
+          "歇龙曲-恶鲁弄巴断裂",
+          "压扭性逆断层",
+          "压碎岩、断层角砾",
+          "N28W/75S",
+          "100~200",
+          "DK1035+735～DK1035+945",
+          "68°"
+        ],
+        [
+          "7",
+          "f41-1",
+          "灯杂-古杂断层",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N50W/70N",
+          "20~500",
+          "DK1038+010～DK1038+390",
+          "90°"
+        ],
+        [
+          "8",
+          "F41",
+          "通更断裂",
+          "逆断层",
+          "断层角砾、透镜状岩块",
+          "N39W/73N",
+          "50~200",
+          "DK1040+075～DK1040+275",
+          "78°"
+        ],
+        [
+          "9",
+          "褶皱",
+          "-",
+          "向斜",
+          "-",
+          "N58W",
+          "500",
+          "DK1038+950~DK1039+450",
+          "-"
+        ]
+      ],
+      "table_type": "8-9合并表格",
+      "is_cross_page": true,
+      "pages": [
+        8,
+        9
+      ],
+      "suspicious_cells": [],
+      "suspicious_count": 0,
+      "page_images": [
+        {
+          "page": 8,
+          "path": "output/images/page_8.png"
+        },
+        {
+          "page": 9,
+          "path": "output/images/page_9.png"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "timestamp": "2025-03-12T10:02:10.427276",
+    "total_tables": 5,
+    "total_suspicious_cells": 0,
+    "file_name": "tables.json",
+    "requires_review": false
+  }
+}

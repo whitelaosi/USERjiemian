@@ -1,0 +1,20 @@
+1. 任务管理主组件
+文件名：TaskManager.vue (已存在)
+位置：D:\USERjiemian\rdf-search-app\src\components\TaskManager.vue
+作用：
+作为任务管理的主容器组件
+需要扩展现有组件以包含任务列表和任务表单功能
+
+2.任务表单组件
+文件名：TaskForm.vue
+位置：D:\USERjiemian\rdf-search-app\src\components\TaskForm.vue
+作用：
+提供动态生成的任务创建/编辑表单
+作为TaskManager.vue的子组件使用
+
+3.任务列表项组件
+文件名：TaskListItem.vue
+位置：D:\USERjiemian\rdf-search-app\src\components\TaskListItem.vue
+作用：
+显示单个任务的信息
+提供任务操作按钮（编辑、删除、执行等）
